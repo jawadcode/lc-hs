@@ -1,7 +1,0 @@
-let add = fun a b   => a + b,  # Addition
-    sub = fun a b   => b - a,  # Subtraction
-    cmp = fun f g x => g (f x) # Function Composition
-in
-    (cmp
-        (add 1)
-        (sub 1)) 123

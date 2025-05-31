@@ -5,7 +5,7 @@ module Main (main) where
 import Control.Monad (unless)
 import Data.Text (Text)
 import Data.Text.IO qualified as TIO (getLine, putStr)
-import Lib (exprParser)
+import Parser (exprParser)
 import System.IO (hFlush, stdout)
 import Text.Megaparsec (parseTest)
 
